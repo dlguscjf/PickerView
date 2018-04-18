@@ -28,7 +28,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     public func numberOfComponents(in pickerView: UIPickerView) -> Int{
         return 2
-    }//picker 갯수
+    }//picker Components 갯수
     
     public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int
     {
